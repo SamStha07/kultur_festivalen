@@ -1,0 +1,7 @@
+npx lint-staged
+# bun format
+
+
+# "lint-staged": {
+#     "src/**.{js,ts,jsx,tsx}": "bun lint"
+#   },

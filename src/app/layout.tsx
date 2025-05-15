@@ -5,6 +5,7 @@ import { Header } from '@/components/header';
 
 import './globals.css';
 import Footer from '@/components/footer';
+import { LayoutWrapper } from '@/components/layout-wrapper';
 
 const poppins = Poppins({
   weight: ['400', '500', '500', '600', '700', '800'],
@@ -25,9 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${poppins.className} antialiased`}>
-        <Header />
-        {children}
-        <Footer />
+        <LayoutWrapper>
+          <Header />
+          {children}
+          <Footer />
+        </LayoutWrapper>
       </body>
     </html>
   );

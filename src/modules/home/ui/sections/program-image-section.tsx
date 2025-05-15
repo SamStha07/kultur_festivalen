@@ -36,7 +36,7 @@ const list = [
 
 export const ProgramImageSection = () => {
   return (
-    <div className="container m-auto mt-[60px] px-4 md:mt-[100px]">
+    <section className="container m-auto mt-[60px] px-4 md:mt-[100px]">
       <h2 className="text-center text-[27px] uppercase sm:text-[40px]">
         Det här är KULTURFESTIVALEN
       </h2>
@@ -47,6 +47,6 @@ export const ProgramImageSection = () => {
           <ImageCard key={data.id} {...data} />
         ))}
       </div>
-    </div>
+    </section>
   );
 };

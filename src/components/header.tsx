@@ -7,7 +7,7 @@ export const Header = () => {
         <div className="flex justify-between pt-7">
           <Icons.logo />
           <button>
-            <Icons.hamburgerIcon />
+            <Icons.hamburgerIcon className="size-[50px] md:size-auto" />
           </button>
         </div>
       </nav>

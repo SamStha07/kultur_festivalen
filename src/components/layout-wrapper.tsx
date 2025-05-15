@@ -11,6 +11,7 @@ export const LayoutWrapper = ({ children }: { children: React.ReactNode }) => {
           fill
           className="object-cover"
           priority
+          quality={100}
         />
       </div>
 

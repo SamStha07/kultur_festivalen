@@ -22,6 +22,7 @@ export const ProgramInfoSection = () => {
             width={1500}
             height={549}
             sizes="100vw"
+            quality={100}
           />
         </div>
       </div>
@@ -33,6 +34,7 @@ export const ProgramInfoSection = () => {
           alt="navigation background"
           fill
           className="object-cover"
+          quality={100}
         />
       </div>
       {/* building background */}
@@ -42,6 +44,7 @@ export const ProgramInfoSection = () => {
           alt="navigation background"
           fill
           className="object-cover"
+          quality={100}
         />
       </div>
     </section>

@@ -16,6 +16,7 @@ export const ImageCard = ({ image, title }: ImageCardProps) => {
         alt={title}
         className="h-full w-full"
         sizes="100vw"
+        quality={100}
       />
       <div className="bg-background absolute bottom-3 left-3 px-3 py-2">
         <p className="text-[20px] leading-[130%] font-bold tracking-wide">
